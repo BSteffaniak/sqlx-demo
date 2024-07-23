@@ -1,0 +1,10 @@
+[package]
+name = "sqlx-demo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version = "0.32.0", features = ["bundled"] }
+# sqlx = { version = "0.8.0", default-features = false, features = ["chrono"] }
+sqlx = { version = "0.8.0", default-features = false }
+sqlx-postgres = { version = "0.8.0", default-features = false }
